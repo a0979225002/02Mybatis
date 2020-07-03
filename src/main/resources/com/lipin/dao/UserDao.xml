@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--配置介面類,查詢user所有-->
+<mapper namespace="com.lipin.dao.UserDao">
+<!--    findAll = UserDao這個介面的方法-->
+    <select id="findAll" resultType="com.lipin.domain.User">
+        select * from just
+    </select>
+</mapper>
